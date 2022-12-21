@@ -1,6 +1,11 @@
 # Devops-training
+DevOps is a set of practices, tools, and a cultural philosophy that automate and integrate the processes between software development and IT teams.
 
-* Note: A container is a unit of software that encapsulates everything needed to build, ship, and run applications.  
+### DOCKER 
+* A container is a unit of software that encapsulates everything needed to build, ship, and run applications.  
+* Containers lower deployment time and costs, improve utilization, automate processes, and support next-gen applications (microservices). Major container vendors include Docker, Podman, LXC, and Vagrant. 
+* Docker is an open platform used for developing, shipping, and running applications as containers. 
+* Docker containers are not a good fit for applications based on monolithic architecture or applications that require high performance or security. 
 * Docker architecture consists of the Docker client, the Docker host, and the container registry. 
 * The Docker host contains objects such as the Dockerfiles, images, containers, networks, storage volumes, and other objects, such as plugins and add-ons. 
 * Docker uses networks to isolate container communications. 
