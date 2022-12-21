@@ -18,3 +18,14 @@ DevOps is a set of practices, tools, and a cultural philosophy that automate and
 * docker build -t my-app:v1 . 
 * docker push -t my-app:v1
 * docker pull alpine
+
+
+### KUBERNETES
+ * Nodes are the worker machines in kubernetes, (can be virtual or physical machine) and manage by the control plane.
+ * Nodes contain pods which are the smallest deployment entity in kubernetes.
+ * kubectl (kube command tool line)
+ * kubectl [command] [type] [name] [flags]
+ [command] = any operation to be performed ( create, get, apply, delete)
+ [type] = resource type (pod, deployment, replicaset)
+ [name] = resource name (if applicable)
+ [flags] = special options or modificatiers that override default values.
