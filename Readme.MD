@@ -8,8 +8,8 @@
 * Plugins, such as storage plugins, provide the ability to connect to external storage platforms. 
 
 ### DOCKER COMMANDS
-==> docker build -t my-app:v1 .
-==> docker images
-==> docker build -t my-app:v1 . 
-==> docker push -t my-app:v1
-==> docker pull alpine
+* docker build -t my-app:v1 .
+* docker images
+* docker build -t my-app:v1 . 
+* docker push -t my-app:v1
+* docker pull alpine
