@@ -17,6 +17,9 @@ DevOps is a set of practices, tools, and a cultural philosophy that automate and
 * docker images
 * docker run --name webapp alpine
 * docker run -t my-app:v1 . 
+* docker stop <conatiner:id> or name
+* docker rm <container:id>
+* docker rmi <image:name>
 * docker push -t my-app:v1
 * docker pull alpine
 
