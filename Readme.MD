@@ -24,6 +24,7 @@ DevOps is a set of practices, tools, and a cultural philosophy that automate and
 * docker log <container:id>
 * docker push -t my-app:v1
 * docker pull alpine
+* docker run python:3.6 cat /etc/*release*  //To know the OS python image is based on
 
 
 ### KUBERNETES
