@@ -95,7 +95,7 @@ Kubernetes architecture consists of a control plane and one or more worker plane
 * `systemctl get-default`  (to also verify target level)
 * `systemctl set-default multi-user.target`  (changed from graphical to multi-user)
 
-##### WORKING PACKAGE MANAGEMENT
+##### WORKING PACKAGE MANAGEMENT (RPM, YUM, DKPG, APT-GET, APT)
 ###### ==> RPM (Redhat Package Manager)
 * INSTALL `rpm -ivh telnet.rpm`
 * UNINSTALL `rpm -e telnet.rpm`
@@ -108,3 +108,11 @@ Kubernetes architecture consists of a control plane and one or more worker plane
 * UNINSTALL `yum remove httpd`
 * UPGRADE `yum upgrade telnet` or `yum update` (update all packages)
 * `yum repolist` 
+
+###### ==> DKPG PACKAGE MANAGER
+* INSTALL  `dkpg -i telnet.deb`
+* UNINSTALL  `dkpg -r telnet.deb`
+* LIST  `dkpg -l telnet.deb`
+* STATUS `dkpg -s telnet.deb`
+* VERIFYING  `dkpg -p <path to file>`
+
