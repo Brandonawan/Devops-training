@@ -73,6 +73,38 @@ Kubernetes architecture consists of a control plane and one or more worker plane
 * kubectl get pods -o wide
 
 ### LINUX COMMANDS
-* ls -lt (shows newest to oldest files or folders)
-* ls -lt (shows oldest to newest files or folders)
-* 
+* `ls -lt` (shows newest to oldest files or folders)
+* `ls -lt` (shows oldest to newest files or folders)
+* `ls -a` (show hidden files)
+* `ls -al` (show file permissions etc)
+* `file /home`  (display the type of file, in linux everything is a file)
+* mkdir -p (multiple directories at a time)
+* PS1 (Use to customise the bash prompt,e.g echo $PS1, PS1="Ubuntu-Server" or PS1="[\d \t \u@\h]"
+
+##### WORKING WITH HARDWARE
+* `uname -r` (know kernel version)
+* `dmesg | grep usb` (gets all events printed by the kernel, grep usb is to get usb activities)
+* `lspci` (list peripheral components)
+* `lsblk` (list block storage)
+* `lscpu` 
+* `lsmem --summary` (list and summarizes memory) 0r `free -m` (-m in megabyte, -g in gigabytes)
+* `lshw`  (gets details of the entire hardware 
+
+##### WORKING WITH BOOT
+* `runlevel`  (show which boot level e.g N 5 (graphical.target), N 3 (multi-user.target)) or 
+* `systemctl get-default`  (to also verify target level)
+* `systemctl set-default multi-user.target`  (changed from graphical to multi-user)
+
+##### WORKING PACKAGE MANAGEMENT
+###### ==> RPM (Redhat Package Manager)
+* INSTALL `rpm -ivh telnet.rpm`
+* UNINSTALL `rpm -e telnet.rpm`
+* UPGRADE `rpm -Uhv telnet.rpm`
+* QUERY `rpm -q telnet.rpm`
+* VERIFYING `rpm -vf <path to file>`  or `rpm -qa | grep wget`
+
+###### ==> YUM PACKAGE MANAGER
+* INSTALL `yum install httpd`
+* UNINSTALL `yum remove httpd`
+* UPGRADE `yum upgrade telnet` or `yum update` (update all packages)
+* `yum repolist` 
