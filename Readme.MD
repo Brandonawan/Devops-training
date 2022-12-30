@@ -74,6 +74,7 @@ Kubernetes architecture consists of a control plane and one or more worker plane
 * kubectl get pods -o wide
 
 ### LINUX COMMANDS
+* `crontab -e`  (cron job)
 * `ls -lt` (shows newest to oldest files or folders)
 * `ls -lt` (shows oldest to newest files or folders)
 * `ls -a` (show hidden files)
