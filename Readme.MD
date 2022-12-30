@@ -25,7 +25,7 @@ DevOps is a set of practices, tools, and a cultural philosophy that automate and
 * docker push -t my-app:v1
 * docker pull alpine
 * docker run python:3.6 cat /etc/*release*  //To know the OS python image is based on
-* docker run -d -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home jenkins/jenkins:lts-jdk11
+* docker run -d -p 8080:8080 -v jenkins_home:/var/jenkins_home jenkins/jenkins:lts-jdk11
 
 
 ### KUBERNETES
@@ -82,6 +82,8 @@ Kubernetes architecture consists of a control plane and one or more worker plane
 * `file /home`  (display the type of file, in linux everything is a file)
 * mkdir -p (multiple directories at a time)
 * PS1 (Use to customise the bash prompt,e.g echo $PS1, PS1="Ubuntu-Server" or PS1="[\d \t \u@\h]"
+* scp -P 2222 /home/brandon/AppBreweryWallpaper.jpg brandon@hostname.com:/home/brandon/project
+* ssh-copy-id admin@192.168.0.102 -p 2222
 
 ##### WORKING WITH HARDWARE
 * `uname -r` (know kernel version)
