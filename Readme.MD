@@ -120,3 +120,5 @@ Kubernetes architecture consists of a control plane and one or more worker plane
 * STATUS `dkpg -s telnet.deb`
 * VERIFYING  `dkpg -p <path to file>`
 
+### GIT COMMANDS
+* Print last commit `git log -n 1`
