@@ -122,3 +122,9 @@ Kubernetes architecture consists of a control plane and one or more worker plane
 
 ### GIT COMMANDS
 * Print last commit `git log -n 1`
+* Print commits and file `git log --name-only`
+* git branch sarah
+* git checkout sarah
+* git checkout -b sarah
+* git branch -d sarah
+* git branch
