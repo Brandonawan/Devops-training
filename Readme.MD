@@ -121,6 +121,7 @@ Kubernetes architecture consists of a control plane and one or more worker plane
 * VERIFYING  `dkpg -p <path to file>`
 
 ### GIT COMMANDS
+==> A branch in git is simply a pointer to a specific commit
 * Print last commit `git log -n 1`
 * Print commits and file `git log --name-only`
 * git branch sarah
@@ -128,3 +129,4 @@ Kubernetes architecture consists of a control plane and one or more worker plane
 * git checkout -b sarah
 * git branch -d sarah
 * git branch
+* Shows which branch a branch was created from, first checkout into that branch `git log --graph --decorate`
