@@ -130,3 +130,6 @@ Kubernetes architecture consists of a control plane and one or more worker plane
 * git branch -d sarah
 * git branch
 * Shows which branch a branch was created from, first checkout into that branch `git log --graph --decorate`
+* This reverts the changes to the ones on this commit, makes a new revert history and retain file `git revert bef18eacf` 
+* Removes commit history and files by 3 commit ahead `git reset --hard HEAD~3` 
+* Removes commit history but preserves the files by 3 commit `git reset --soft HEAD~3`
