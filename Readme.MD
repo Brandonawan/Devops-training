@@ -122,14 +122,20 @@ Kubernetes architecture consists of a control plane and one or more worker plane
 
 ### GIT COMMANDS
 ==> A branch in git is simply a pointer to a specific commit
+==> A commits can point to different blobs(piece of information) and trees.
+==> Git rebase produces a different git history compare to merging.
 * Print last commit `git log -n 1`
 * Print commits and file `git log --name-only`
-* git branch sarah
-* git checkout sarah
-* git checkout -b sarah
-* git branch -d sarah
-* git branch
+* `git branch sarah`
+* `git checkout sarah`
+* `git checkout -b sarah`
+* `git branch -d sarah`
+* `git branch`
 * Shows which branch a branch was created from, first checkout into that branch `git log --graph --decorate`
 * This reverts the changes to the ones on this commit, makes a new revert history and retain file `git revert bef18eacf` 
 * Removes commit history and files by 3 commit ahead `git reset --hard HEAD~3` 
-* Removes commit history but preserves the files by 3 commit `git reset --soft HEAD~3`
+* Removes commit history but preserves the files in the working area by 3 commit `git reset --soft HEAD~3`
+* `git stash list`
+* `git stash show stash@{1}`
+* `git stash pop sash@{1}`
+* shows all states of the repo `git reflog`
