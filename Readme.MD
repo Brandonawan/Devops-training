@@ -114,7 +114,8 @@ Kubernetes architecture consists of a control plane and one or more worker plane
 * `yum repolist` 
 
 ###### ==> DKPG PACKAGE MANAGER
-* INSTALL  `dkpg -i telnet.deb`
+* INSTALL  `sudo dpkg --install [.deb file]` or `sudo dpkg --install [path/to/.deb file]`
+For error run `sudo apt -f install`
 * UNINSTALL  `dkpg -r telnet.deb`
 * LIST  `dkpg -l telnet.deb`
 * STATUS `dkpg -s telnet.deb`
