@@ -69,7 +69,7 @@ Kubernetes architecture consists of a control plane and one or more worker plane
 ### KUBERNETES COMMANDS
 * kubectl version
 * kubectl config get-clusters
-* kubectl describe
+* kubectl describe pod -n minio-operator <pod name>
 * kubectl get pods
 * kubectl get pods -o wide
 
